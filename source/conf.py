@@ -70,5 +70,5 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 source_dir = os.path.dirname(__file__)
 config_file = join(source_dir, "configuration")
-repl_file_path          = join(config_file, 'replacements.rst')
-rst_prolog              = '.. include:: {}'.format(repl_file_path)
+repl_file_path = join(config_file, 'replacements.txt')
+rst_prolog = '.. include:: {}'.format(repl_file_path)
