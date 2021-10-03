@@ -1,0 +1,984 @@
+\babel@toc {turkish}{}
+\contentsline {chapter}{\numberline {1}Bu Kitap Hakkında}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Bu Kitaptan Nasıl Yararlanabilirim?}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Nereden Yardım Alabilirim?}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Projeye Nasıl Yardımcı Olabilirim?}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Kullanım Koşulları}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Python Hakkında}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Python Nedir?}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Neden Programlama Öğrenmek İsteyeyim?}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Neden Python?}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Python Nasıl Telaffuz Edilir?}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Platform Desteği}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Farklı Python Sürümleri}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Hangi Seriyi Öğrenmeliyim?}{6}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Python Nasıl Kurulur?}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}GNU/Linux Kullanıcıları}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kurulu Python Sürümü}{7}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Paket Deposundan Kurulum}{8}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Kaynaktan Kurulum}{8}{subsection.3.1.3}%
+\contentsline {subsubsection}{root Hakları İle Kurulum}{9}{subsubsection*.3}%
+\contentsline {subsubsection}{Yetkisiz Kullanıcı Olarak Kurulum}{10}{subsubsection*.4}%
+\contentsline {subsection}{\numberline {3.1.4}Sürüm Yöneticisi ile Kurulum (pyenv)}{11}{subsection.3.1.4}%
+\contentsline {subsubsection}{pyenv Bağımlılıkların Kurulumu}{12}{subsubsection*.5}%
+\contentsline {subsubsection}{Yeni Sürümlerin Kurulumu}{13}{subsubsection*.6}%
+\contentsline {subsubsection}{Yüklenen Sürümün Kullanımı}{13}{subsubsection*.7}%
+\contentsline {section}{\numberline {3.2}Windows Kullanıcıları}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Python Kurulum ve Çalışma Dizini}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Python Nasıl Çalıştırılır?}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}GNU/Linux Kullanıcıları}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Kurulu Python3’ü Kullananlar}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Python3’ü Depodan Kuranlar}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Python3’ü root Olarak Derleyenler}{16}{subsection.4.1.3}%
+\contentsline {subsubsection}{Çok Önemli Bir Uyarı}{17}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {4.1.4}Python3’ü Ev Dizinine Kuranlar}{18}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}GNU/Linux’ta Farklı Sürümleri Birlikte Kullanmak}{19}{subsection.4.1.5}%
+\contentsline {subsubsection}{pyenv ile Sürümleri Yönetmek}{20}{subsubsection*.9}%
+\contentsline {section}{\numberline {4.2}Windows Kullanıcıları}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Windows’ta Farklı Sürümleri Birlikte Kullanmak}{21}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Hangi Komut Hangi Sürümü Çalıştırıyor?}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Sistem Komut Satırı ve Python Komut Satırı}{23}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Etkileşimli Python}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Etkileşimli Kabukta İlk Adımlar}{26}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Karakter Dizilerine Giriş}{27}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Sayılara Giriş}{30}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Değişkenler}{33}{subsection.5.1.3}%
+\contentsline {subsubsection}{Değişken Adı Belirleme Kuralları}{36}{subsubsection*.10}%
+\contentsline {subsubsection}{Uygulama Örnekleri}{39}{subsubsection*.11}%
+\contentsline {subsubsection}{Değişkenlere Dair Bazı İpuçları}{44}{subsubsection*.12}%
+\contentsline {paragraph}{Aynı Değere Sahip Değişkenler Tanımlama}{44}{paragraph*.13}%
+\contentsline {paragraph}{Değişkenlerin Değerini Takas Etme}{46}{paragraph*.14}%
+\contentsline {section}{\numberline {5.2}Etkileşimli Kabuğun Hafızası}{48}{section.5.2}%
+\contentsline {chapter}{\numberline {6}print() Fonksiyonu}{51}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Nedir, Ne İşe Yarar?}{51}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Nasıl Kullanılır?}{52}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Bir Fonksiyon Olarak print()}{56}{section.6.3}%
+\contentsline {section}{\numberline {6.4}print() Fonksiyonunun Parametreleri}{57}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}sep}{57}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}end}{60}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}file}{63}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}flush}{65}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Birkaç Pratik Bilgi}{66}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Yıldızlı Parametreler}{66}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}sys.stdout’u Kalıcı Olarak Değiştirmek}{68}{subsection.6.5.2}%
+\contentsline {chapter}{\numberline {7}Kaçış Dizileri}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Ters Taksim (\textbackslash {})}{75}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Satır Başı (\textbackslash {}n)}{77}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Sekme (\textbackslash {}t)}{80}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Zil Sesi (\textbackslash {}a)}{81}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Aynı Satır Başı (\textbackslash {}r)}{81}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Düşey Sekme (\textbackslash {}v)}{82}{section.7.6}%
+\contentsline {section}{\numberline {7.7}İmleç Kaydırma (\textbackslash {}b)}{82}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Küçük Unicode (\textbackslash {}u)}{83}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Büyük Unicode (\textbackslash {}U)}{85}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Uzun Ad (\textbackslash {}N)}{85}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Onaltılı Karakter (\textbackslash {}x)}{86}{section.7.11}%
+\contentsline {section}{\numberline {7.12}Etkisizleştirme (r)}{87}{section.7.12}%
+\contentsline {section}{\numberline {7.13}Sayfa Başı (\textbackslash {}f)}{89}{section.7.13}%
+\contentsline {section}{\numberline {7.14}Kaçış Dizilerine Toplu Bakış}{90}{section.7.14}%
+\contentsline {chapter}{\numberline {8}Programları Kaydetme ve Çalıştırma}{91}{chapter.8}%
+\contentsline {section}{\numberline {8.1}GNU/Linux}{92}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Windows}{93}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Çalışma Ortamı Tavsiyesi}{95}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Windows Kullanıcıları}{95}{section.9.1}%
+\contentsline {section}{\numberline {9.2}GNU/Linux Kullanıcıları}{97}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Metin Düzenleyici Ayarları}{97}{section.9.3}%
+\contentsline {section}{\numberline {9.4}MS\sphinxhyphen {}DOS Komut Satırı Ayarları}{99}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Program Örnekleri}{100}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Yorum ve Açıklama Cümleleri}{103}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Yorum İşareti}{104}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Yorum İşaretinin Farklı Kullanımları}{105}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Etkisizleştirme Amaçlı}{106}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Süsleme Amaçlı}{106}{subsection.10.2.2}%
+\contentsline {chapter}{\numberline {11}Kullanıcıdan Bilgi Almak}{109}{chapter.11}%
+\contentsline {section}{\numberline {11.1}input() Fonksiyonu}{110}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Tip Dönüşümleri}{112}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}int()}{114}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}str()}{116}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}float()}{117}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.4}complex()}{117}{subsection.11.2.4}%
+\contentsline {section}{\numberline {11.3}eval() ve exec() Fonksiyonları}{123}{section.11.3}%
+\contentsline {section}{\numberline {11.4}format() Metodu}{127}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Koşullu Durumlar}{133}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Koşul Deyimleri}{134}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}if}{135}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}elif}{138}{subsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.1.3}else}{140}{subsection.12.1.3}%
+\contentsline {section}{\numberline {12.2}Örnek Uygulama}{145}{section.12.2}%
+\contentsline {chapter}{\numberline {13}İşleçler}{147}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Aritmetik İşleçler}{148}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Karşılaştırma İşleçleri}{153}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Bool İşleçleri}{154}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Değer Atama İşleçleri}{163}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Aitlik İşleçleri}{167}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Kimlik İşleçleri}{167}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Uygulama Örnekleri}{171}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}Basit Bir Hesap Makinesi}{171}{subsection.13.7.1}%
+\contentsline {subsection}{\numberline {13.7.2}Sürüme Göre İşlem Yapan Program}{176}{subsection.13.7.2}%
+\contentsline {chapter}{\numberline {14}Döngüler (Loops)}{181}{chapter.14}%
+\contentsline {section}{\numberline {14.1}while Döngüsü}{182}{section.14.1}%
+\contentsline {section}{\numberline {14.2}for Döngüsü}{189}{section.14.2}%
+\contentsline {section}{\numberline {14.3}İlgili Araçlar}{195}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}range Fonksiyonu}{195}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}pass Deyimi}{199}{subsection.14.3.2}%
+\contentsline {subsection}{\numberline {14.3.3}break Deyimi}{200}{subsection.14.3.3}%
+\contentsline {subsection}{\numberline {14.3.4}continue Deyimi}{201}{subsection.14.3.4}%
+\contentsline {subsection}{\numberline {14.3.5}else Deyimi}{201}{subsection.14.3.5}%
+\contentsline {section}{\numberline {14.4}Örnek Uygulamalar}{203}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}Karakter Dizilerinin İçeriğini Karşılaştırma}{203}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}Dosyaların İçeriğini Karşılaştırma}{208}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}Karakter Dizisindeki Karakterleri Sayma}{210}{subsection.14.4.3}%
+\contentsline {subsection}{\numberline {14.4.4}Dosya içindeki Karakterleri Sayma}{211}{subsection.14.4.4}%
+\contentsline {chapter}{\numberline {15}Hata Yakalama}{215}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Hata Türleri}{216}{section.15.1}%
+\contentsline {section}{\numberline {15.2}try… except…}{218}{section.15.2}%
+\contentsline {section}{\numberline {15.3}try… except… as…}{221}{section.15.3}%
+\contentsline {section}{\numberline {15.4}try… except… else…}{222}{section.15.4}%
+\contentsline {section}{\numberline {15.5}try… except… finally…}{223}{section.15.5}%
+\contentsline {section}{\numberline {15.6}raise}{224}{section.15.6}%
+\contentsline {section}{\numberline {15.7}assert}{225}{section.15.7}%
+\contentsline {section}{\numberline {15.8}Bütün Hataları Yakalamak}{227}{section.15.8}%
+\contentsline {section}{\numberline {15.9}Örnek Uygulama}{228}{section.15.9}%
+\contentsline {chapter}{\numberline {16}Karakter Dizileri}{231}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Karakter Dizilerinin Öğelerine Erişmek}{232}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Karakter Dizilerini Dilimlemek}{239}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Karakter Dizilerini Ters Çevirmek}{241}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Karakter Dizilerini Alfabe Sırasına Dizmek}{243}{section.16.4}%
+\contentsline {section}{\numberline {16.5}Karakter Dizileri Üzerinde Değişiklik Yapmak}{245}{section.16.5}%
+\contentsline {section}{\numberline {16.6}Üç Önemli Fonksiyon}{248}{section.16.6}%
+\contentsline {subsection}{\numberline {16.6.1}dir()}{248}{subsection.16.6.1}%
+\contentsline {subsection}{\numberline {16.6.2}enumerate()}{250}{subsection.16.6.2}%
+\contentsline {subsection}{\numberline {16.6.3}help()}{252}{subsection.16.6.3}%
+\contentsline {section}{\numberline {16.7}Notlar}{254}{section.16.7}%
+\contentsline {chapter}{\numberline {17}Karakter Dizilerinin Metotları}{257}{chapter.17}%
+\contentsline {section}{\numberline {17.1}replace()}{258}{section.17.1}%
+\contentsline {section}{\numberline {17.2}split(), rsplit(), splitlines()}{259}{section.17.2}%
+\contentsline {section}{\numberline {17.3}lower()}{265}{section.17.3}%
+\contentsline {section}{\numberline {17.4}upper()}{268}{section.17.4}%
+\contentsline {section}{\numberline {17.5}islower(), isupper()}{269}{section.17.5}%
+\contentsline {section}{\numberline {17.6}endswith()}{271}{section.17.6}%
+\contentsline {section}{\numberline {17.7}startswith()}{272}{section.17.7}%
+\contentsline {chapter}{\numberline {18}Karakter Dizilerinin Metotları (Devamı)}{275}{chapter.18}%
+\contentsline {section}{\numberline {18.1}capitalize()}{275}{section.18.1}%
+\contentsline {section}{\numberline {18.2}title()}{277}{section.18.2}%
+\contentsline {section}{\numberline {18.3}swapcase()}{280}{section.18.3}%
+\contentsline {section}{\numberline {18.4}casefold()}{281}{section.18.4}%
+\contentsline {section}{\numberline {18.5}strip(), lstrip(), rstrip()}{281}{section.18.5}%
+\contentsline {section}{\numberline {18.6}join()}{284}{section.18.6}%
+\contentsline {section}{\numberline {18.7}count()}{285}{section.18.7}%
+\contentsline {section}{\numberline {18.8}index(), rindex()}{289}{section.18.8}%
+\contentsline {section}{\numberline {18.9}find, rfind()}{292}{section.18.9}%
+\contentsline {section}{\numberline {18.10}center()}{293}{section.18.10}%
+\contentsline {section}{\numberline {18.11}rjust(), ljust()}{294}{section.18.11}%
+\contentsline {section}{\numberline {18.12}zfill()}{296}{section.18.12}%
+\contentsline {section}{\numberline {18.13}partition(), rpartition()}{296}{section.18.13}%
+\contentsline {section}{\numberline {18.14}encode()}{297}{section.18.14}%
+\contentsline {section}{\numberline {18.15}expandtabs()}{297}{section.18.15}%
+\contentsline {chapter}{\numberline {19}Karakter Dizilerinin Metotları (Devamı)}{299}{chapter.19}%
+\contentsline {section}{\numberline {19.1}str.maketrans(), translate()}{299}{section.19.1}%
+\contentsline {section}{\numberline {19.2}isalpha()}{310}{section.19.2}%
+\contentsline {section}{\numberline {19.3}isdigit()}{311}{section.19.3}%
+\contentsline {section}{\numberline {19.4}isalnum()}{311}{section.19.4}%
+\contentsline {section}{\numberline {19.5}isdecimal()}{312}{section.19.5}%
+\contentsline {section}{\numberline {19.6}isidentifier()}{312}{section.19.6}%
+\contentsline {section}{\numberline {19.7}isnumeric()}{313}{section.19.7}%
+\contentsline {section}{\numberline {19.8}isspace()}{313}{section.19.8}%
+\contentsline {section}{\numberline {19.9}isprintable()}{314}{section.19.9}%
+\contentsline {chapter}{\numberline {20}Karakter Dizilerini Biçimlendirmek}{315}{chapter.20}%
+\contentsline {section}{\numberline {20.1}\% İşareti ile Biçimlendirme (Eski Yöntem)}{317}{section.20.1}%
+\contentsline {subsection}{\numberline {20.1.1}Biçimlendirme Karakterleri}{323}{subsection.20.1.1}%
+\contentsline {subsubsection}{s}{323}{subsubsection*.15}%
+\contentsline {subsubsection}{d}{323}{subsubsection*.16}%
+\contentsline {subsubsection}{i}{326}{subsubsection*.17}%
+\contentsline {subsubsection}{o}{326}{subsubsection*.18}%
+\contentsline {subsubsection}{x}{327}{subsubsection*.19}%
+\contentsline {subsubsection}{X}{327}{subsubsection*.20}%
+\contentsline {subsubsection}{f}{327}{subsubsection*.21}%
+\contentsline {subsubsection}{c}{328}{subsubsection*.22}%
+\contentsline {section}{\numberline {20.2}format() Metodu ile Biçimlendirme (Yeni Yöntem)}{329}{section.20.2}%
+\contentsline {subsection}{\numberline {20.2.1}Biçimlendirme Karakterleri}{334}{subsection.20.2.1}%
+\contentsline {subsubsection}{s}{334}{subsubsection*.23}%
+\contentsline {subsubsection}{c}{335}{subsubsection*.24}%
+\contentsline {subsubsection}{d}{335}{subsubsection*.25}%
+\contentsline {subsubsection}{o}{335}{subsubsection*.26}%
+\contentsline {subsubsection}{x}{335}{subsubsection*.27}%
+\contentsline {subsubsection}{X}{335}{subsubsection*.28}%
+\contentsline {subsubsection}{b}{336}{subsubsection*.29}%
+\contentsline {subsubsection}{f}{336}{subsubsection*.30}%
+\contentsline {subsubsection}{,}{337}{subsubsection*.31}%
+\contentsline {chapter}{\numberline {21}f\sphinxhyphen {}string}{339}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Kullanım}{339}{section.21.1}%
+\contentsline {chapter}{\numberline {22}Listeler ve Demetler}{343}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Listeler}{344}{section.22.1}%
+\contentsline {subsection}{\numberline {22.1.1}Liste Tanımlamak}{344}{subsection.22.1.1}%
+\contentsline {subsection}{\numberline {22.1.2}list() Fonksiyonu}{349}{subsection.22.1.2}%
+\contentsline {subsection}{\numberline {22.1.3}Listelerin Öğelerine Erişmek}{352}{subsection.22.1.3}%
+\contentsline {subsection}{\numberline {22.1.4}Listelerin Öğelerini Değiştirmek}{355}{subsection.22.1.4}%
+\contentsline {subsection}{\numberline {22.1.5}Listeye Öğe Eklemek}{356}{subsection.22.1.5}%
+\contentsline {subsection}{\numberline {22.1.6}Listeleri Birleştirmek}{357}{subsection.22.1.6}%
+\contentsline {subsection}{\numberline {22.1.7}Listeden Öğe Çıkarmak}{360}{subsection.22.1.7}%
+\contentsline {subsection}{\numberline {22.1.8}Listeleri Silmek}{360}{subsection.22.1.8}%
+\contentsline {subsection}{\numberline {22.1.9}Listeleri Kopyalamak}{360}{subsection.22.1.9}%
+\contentsline {subsection}{\numberline {22.1.10}Liste Üreteçleri (List Comprehensions)}{364}{subsection.22.1.10}%
+\contentsline {subsection}{\numberline {22.1.11}Örnek Program: X.O.X Oyunu}{369}{subsection.22.1.11}%
+\contentsline {section}{\numberline {22.2}Demetler}{378}{section.22.2}%
+\contentsline {subsection}{\numberline {22.2.1}Demet Tanımlamak}{379}{subsection.22.2.1}%
+\contentsline {subsection}{\numberline {22.2.2}Tek Öğeli bir Demet Tanımlamak}{379}{subsection.22.2.2}%
+\contentsline {subsection}{\numberline {22.2.3}Demetlerin Öğelerine Erişmek}{380}{subsection.22.2.3}%
+\contentsline {subsection}{\numberline {22.2.4}Demetlerle Listelerin Birbirinden Farkı}{380}{subsection.22.2.4}%
+\contentsline {subsection}{\numberline {22.2.5}Demetlerin Kullanım Alanı}{381}{subsection.22.2.5}%
+\contentsline {chapter}{\numberline {23}Listelerin ve Demetlerin Metotları}{383}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Listelerin Metotları}{383}{section.23.1}%
+\contentsline {subsection}{\numberline {23.1.1}append()}{384}{subsection.23.1.1}%
+\contentsline {subsection}{\numberline {23.1.2}extend()}{387}{subsection.23.1.2}%
+\contentsline {subsection}{\numberline {23.1.3}insert()}{388}{subsection.23.1.3}%
+\contentsline {subsection}{\numberline {23.1.4}remove()}{390}{subsection.23.1.4}%
+\contentsline {subsection}{\numberline {23.1.5}reverse()}{390}{subsection.23.1.5}%
+\contentsline {subsection}{\numberline {23.1.6}pop()}{391}{subsection.23.1.6}%
+\contentsline {subsection}{\numberline {23.1.7}sort()}{392}{subsection.23.1.7}%
+\contentsline {subsection}{\numberline {23.1.8}index()}{393}{subsection.23.1.8}%
+\contentsline {subsection}{\numberline {23.1.9}count()}{393}{subsection.23.1.9}%
+\contentsline {subsection}{\numberline {23.1.10}copy()}{394}{subsection.23.1.10}%
+\contentsline {subsection}{\numberline {23.1.11}clear()}{394}{subsection.23.1.11}%
+\contentsline {section}{\numberline {23.2}Demetlerin Metotları}{394}{section.23.2}%
+\contentsline {subsection}{\numberline {23.2.1}index()}{395}{subsection.23.2.1}%
+\contentsline {subsection}{\numberline {23.2.2}count()}{395}{subsection.23.2.2}%
+\contentsline {chapter}{\numberline {24}Sayma Sistemleri}{397}{chapter.24}%
+\contentsline {section}{\numberline {24.1}Onlu Sayma Sistemi}{397}{section.24.1}%
+\contentsline {section}{\numberline {24.2}Sekizli Sayma Sistemi}{398}{section.24.2}%
+\contentsline {section}{\numberline {24.3}On Altılı Sayma Sistemi}{400}{section.24.3}%
+\contentsline {section}{\numberline {24.4}İkili Sayma Sistemi}{402}{section.24.4}%
+\contentsline {section}{\numberline {24.5}Sayma Sistemlerini Birbirine Dönüştürme}{403}{section.24.5}%
+\contentsline {subsection}{\numberline {24.5.1}Fonksiyon Kullanarak}{403}{subsection.24.5.1}%
+\contentsline {subsubsection}{bin()}{403}{subsubsection*.32}%
+\contentsline {subsubsection}{hex()}{403}{subsubsection*.33}%
+\contentsline {subsubsection}{oct()}{404}{subsubsection*.34}%
+\contentsline {subsubsection}{int()}{404}{subsubsection*.35}%
+\contentsline {subsection}{\numberline {24.5.2}Biçimlendirme Yoluyla}{404}{subsection.24.5.2}%
+\contentsline {subsubsection}{b}{405}{subsubsection*.36}%
+\contentsline {subsubsection}{x}{405}{subsubsection*.37}%
+\contentsline {subsubsection}{o}{405}{subsubsection*.38}%
+\contentsline {section}{\numberline {24.6}Sayma Sistemlerinin Birbirlerine Karşı Avantajları}{406}{section.24.6}%
+\contentsline {chapter}{\numberline {25}Sayılar}{407}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Sayıların Metotları}{408}{section.25.1}%
+\contentsline {subsection}{\numberline {25.1.1}Tam Sayıların Metotları}{408}{subsection.25.1.1}%
+\contentsline {subsubsection}{bit\_length()}{408}{subsubsection*.39}%
+\contentsline {subsection}{\numberline {25.1.2}Kayan Noktalı Sayıların Metotları}{410}{subsection.25.1.2}%
+\contentsline {subsubsection}{as\_integer\_ratio()}{410}{subsubsection*.40}%
+\contentsline {subsubsection}{is\_integer()}{410}{subsubsection*.41}%
+\contentsline {subsection}{\numberline {25.1.3}Karmaşık Sayıların Metotları}{410}{subsection.25.1.3}%
+\contentsline {subsubsection}{imag}{411}{subsubsection*.42}%
+\contentsline {subsubsection}{real}{411}{subsubsection*.43}%
+\contentsline {section}{\numberline {25.2}Aritmetik Fonksiyonlar}{411}{section.25.2}%
+\contentsline {subsection}{\numberline {25.2.1}abs()}{412}{subsection.25.2.1}%
+\contentsline {subsection}{\numberline {25.2.2}divmod()}{412}{subsection.25.2.2}%
+\contentsline {subsection}{\numberline {25.2.3}max()}{412}{subsection.25.2.3}%
+\contentsline {subsection}{\numberline {25.2.4}min()}{414}{subsection.25.2.4}%
+\contentsline {subsection}{\numberline {25.2.5}sum()}{414}{subsection.25.2.5}%
+\contentsline {chapter}{\numberline {26}Temel Dosya İşlemleri}{415}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Dosya Oluşturmak}{415}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Dosyaya Yazmak}{417}{section.26.2}%
+\contentsline {section}{\numberline {26.3}Dosya Okumak}{418}{section.26.3}%
+\contentsline {section}{\numberline {26.4}Dosyaları Otomatik Kapatma}{420}{section.26.4}%
+\contentsline {section}{\numberline {26.5}Dosyayı İleri\sphinxhyphen {}Geri Sarmak}{421}{section.26.5}%
+\contentsline {section}{\numberline {26.6}Dosyalarda Değişiklik Yapmak}{422}{section.26.6}%
+\contentsline {subsection}{\numberline {26.6.1}Dosyaların Sonunda Değişiklik Yapmak}{423}{subsection.26.6.1}%
+\contentsline {subsection}{\numberline {26.6.2}Dosyaların Başında Değişiklik Yapmak}{423}{subsection.26.6.2}%
+\contentsline {subsection}{\numberline {26.6.3}Dosyaların Ortasında Değişiklik Yapmak}{425}{subsection.26.6.3}%
+\contentsline {section}{\numberline {26.7}Dosyaya Erişme Kipleri}{427}{section.26.7}%
+\contentsline {chapter}{\numberline {27}Dosyaların Metot ve Nitelikleri}{429}{chapter.27}%
+\contentsline {section}{\numberline {27.1}closed Niteliği}{430}{section.27.1}%
+\contentsline {section}{\numberline {27.2}readable() Metodu}{430}{section.27.2}%
+\contentsline {section}{\numberline {27.3}writable() Metodu}{430}{section.27.3}%
+\contentsline {section}{\numberline {27.4}truncate() Metodu}{430}{section.27.4}%
+\contentsline {section}{\numberline {27.5}mode Niteliği}{432}{section.27.5}%
+\contentsline {section}{\numberline {27.6}name Niteliği}{432}{section.27.6}%
+\contentsline {section}{\numberline {27.7}encoding Niteliği}{432}{section.27.7}%
+\contentsline {chapter}{\numberline {28}İkili (\sphinxstyleemphasis {Binary}) Dosyalar}{433}{chapter.28}%
+\contentsline {section}{\numberline {28.1}İkili Dosyalarla Örnekler}{434}{section.28.1}%
+\contentsline {subsection}{\numberline {28.1.1}PDF Dosyalarından Bilgi Alma}{434}{subsection.28.1.1}%
+\contentsline {subsection}{\numberline {28.1.2}Resim Dosyalarının Türünü Tespit Etme}{437}{subsection.28.1.2}%
+\contentsline {subsubsection}{JPEG}{437}{subsubsection*.44}%
+\contentsline {subsubsection}{PNG}{439}{subsubsection*.45}%
+\contentsline {subsubsection}{GIF}{440}{subsubsection*.46}%
+\contentsline {subsubsection}{TIFF}{440}{subsubsection*.47}%
+\contentsline {subsubsection}{BMP}{441}{subsubsection*.48}%
+\contentsline {chapter}{\numberline {29}Basit bir İletişim Modeli}{443}{chapter.29}%
+\contentsline {section}{\numberline {29.1}8 Bitlik bir Sistem}{444}{section.29.1}%
+\contentsline {section}{\numberline {29.2}Hata Kontrolü}{445}{section.29.2}%
+\contentsline {section}{\numberline {29.3}Karakterlerin Temsili}{447}{section.29.3}%
+\contentsline {chapter}{\numberline {30}Karakter Kodlama (\sphinxstyleemphasis {Character Encoding})}{451}{chapter.30}%
+\contentsline {section}{\numberline {30.1}Giriş}{452}{section.30.1}%
+\contentsline {section}{\numberline {30.2}ASCII}{453}{section.30.2}%
+\contentsline {subsection}{\numberline {30.2.1}7 Bitlik bir Sistem}{454}{subsection.30.2.1}%
+\contentsline {subsection}{\numberline {30.2.2}Genişletilmiş ASCII}{457}{subsection.30.2.2}%
+\contentsline {subsection}{\numberline {30.2.3}1 Karakter == 1 Bayt}{459}{subsection.30.2.3}%
+\contentsline {section}{\numberline {30.3}UNICODE}{460}{section.30.3}%
+\contentsline {subsection}{\numberline {30.3.1}Sınırsız Bitlik bir Sistem}{461}{subsection.30.3.1}%
+\contentsline {subsection}{\numberline {30.3.2}UTF\sphinxhyphen {}8 Kod Çözücüsü}{461}{subsection.30.3.2}%
+\contentsline {subsection}{\numberline {30.3.3}1 Karakter != 1 Bayt}{462}{subsection.30.3.3}%
+\contentsline {subsection}{\numberline {30.3.4}Eksik Karakterler ve encode Metodu}{465}{subsection.30.3.4}%
+\contentsline {subsection}{\numberline {30.3.5}Dosyalar ve Karakter Kodlama}{466}{subsection.30.3.5}%
+\contentsline {subsubsection}{encoding}{466}{subsubsection*.49}%
+\contentsline {subsubsection}{errors}{467}{subsubsection*.50}%
+\contentsline {section}{\numberline {30.4}Konu ile ilgili Fonksiyonlar}{468}{section.30.4}%
+\contentsline {subsection}{\numberline {30.4.1}repr()}{468}{subsection.30.4.1}%
+\contentsline {subsection}{\numberline {30.4.2}ascii()}{471}{subsection.30.4.2}%
+\contentsline {subsection}{\numberline {30.4.3}ord()}{471}{subsection.30.4.3}%
+\contentsline {subsection}{\numberline {30.4.4}chr()}{472}{subsection.30.4.4}%
+\contentsline {chapter}{\numberline {31}Baytlar (Bytes) ve Bayt Dizileri (Bytearrays)}{473}{chapter.31}%
+\contentsline {section}{\numberline {31.1}Giriş}{473}{section.31.1}%
+\contentsline {section}{\numberline {31.2}Eskisi ve Yenisi}{475}{section.31.2}%
+\contentsline {section}{\numberline {31.3}Bayt Tanımlamak}{476}{section.31.3}%
+\contentsline {section}{\numberline {31.4}bytes() Fonksiyonu}{477}{section.31.4}%
+\contentsline {section}{\numberline {31.5}Baytların Metotları}{477}{section.31.5}%
+\contentsline {subsection}{\numberline {31.5.1}decode}{478}{subsection.31.5.1}%
+\contentsline {subsection}{\numberline {31.5.2}fromhex}{479}{subsection.31.5.2}%
+\contentsline {section}{\numberline {31.6}Bayt Dizileri}{479}{section.31.6}%
+\contentsline {section}{\numberline {31.7}Bayt Dizilerinin Metotları}{479}{section.31.7}%
+\contentsline {chapter}{\numberline {32}Sözlükler}{483}{chapter.32}%
+\contentsline {section}{\numberline {32.1}Sözlük Tanımlamak}{484}{section.32.1}%
+\contentsline {section}{\numberline {32.2}Sözlük Öğelerine Erişmek}{485}{section.32.2}%
+\contentsline {section}{\numberline {32.3}Sözlüklerin Yapısı}{488}{section.32.3}%
+\contentsline {section}{\numberline {32.4}Sözlüklere Öğe Eklemek}{491}{section.32.4}%
+\contentsline {section}{\numberline {32.5}Sözlük Öğeleri Üzerinde Değişiklik Yapmak}{495}{section.32.5}%
+\contentsline {section}{\numberline {32.6}Sözlük Üreteçleri (\sphinxstyleemphasis {Dictionary Comprehensions})}{495}{section.32.6}%
+\contentsline {chapter}{\numberline {33}Sözlüklerin Metotları}{497}{chapter.33}%
+\contentsline {section}{\numberline {33.1}keys()}{497}{section.33.1}%
+\contentsline {section}{\numberline {33.2}values()}{498}{section.33.2}%
+\contentsline {section}{\numberline {33.3}items()}{499}{section.33.3}%
+\contentsline {section}{\numberline {33.4}get()}{500}{section.33.4}%
+\contentsline {section}{\numberline {33.5}clear()}{501}{section.33.5}%
+\contentsline {section}{\numberline {33.6}copy()}{502}{section.33.6}%
+\contentsline {section}{\numberline {33.7}fromkeys()}{504}{section.33.7}%
+\contentsline {section}{\numberline {33.8}pop()}{504}{section.33.8}%
+\contentsline {section}{\numberline {33.9}popitem()}{505}{section.33.9}%
+\contentsline {section}{\numberline {33.10}setdefault()}{505}{section.33.10}%
+\contentsline {section}{\numberline {33.11}update()}{505}{section.33.11}%
+\contentsline {chapter}{\numberline {34}Kümeler ve Dondurulmuş Kümeler}{507}{chapter.34}%
+\contentsline {section}{\numberline {34.1}Kümeler}{507}{section.34.1}%
+\contentsline {subsection}{\numberline {34.1.1}Küme Oluşturmak}{507}{subsection.34.1.1}%
+\contentsline {subsection}{\numberline {34.1.2}Kümelerin Yapısı}{510}{subsection.34.1.2}%
+\contentsline {subsection}{\numberline {34.1.3}Küme Üreteçleri (\sphinxstyleemphasis {Set Comprehensions})}{511}{subsection.34.1.3}%
+\contentsline {subsection}{\numberline {34.1.4}Kümelerin Metotları}{512}{subsection.34.1.4}%
+\contentsline {subsubsection}{clear()}{513}{subsubsection*.51}%
+\contentsline {subsubsection}{copy()}{513}{subsubsection*.52}%
+\contentsline {subsubsection}{add()}{514}{subsubsection*.53}%
+\contentsline {subsubsection}{difference()}{516}{subsubsection*.54}%
+\contentsline {subsubsection}{difference\_update()}{516}{subsubsection*.55}%
+\contentsline {subsubsection}{discard()}{517}{subsubsection*.56}%
+\contentsline {subsubsection}{remove()}{517}{subsubsection*.57}%
+\contentsline {subsubsection}{intersection()}{518}{subsubsection*.58}%
+\contentsline {subsubsection}{intersection\_update()}{519}{subsubsection*.59}%
+\contentsline {subsubsection}{isdisjoint()}{520}{subsubsection*.60}%
+\contentsline {subsubsection}{issubset()}{520}{subsubsection*.61}%
+\contentsline {subsubsection}{issuperset()}{521}{subsubsection*.62}%
+\contentsline {subsubsection}{union()}{521}{subsubsection*.63}%
+\contentsline {subsubsection}{update()}{521}{subsubsection*.64}%
+\contentsline {subsubsection}{symmetric\_difference()}{522}{subsubsection*.65}%
+\contentsline {subsubsection}{symmetric\_difference\_update()}{523}{subsubsection*.66}%
+\contentsline {subsubsection}{pop()}{523}{subsubsection*.67}%
+\contentsline {section}{\numberline {34.2}Dondurulmuş Kümeler (Frozenset)}{523}{section.34.2}%
+\contentsline {chapter}{\numberline {35}Fonksiyonlar}{525}{chapter.35}%
+\contentsline {section}{\numberline {35.1}Fonksiyon Nedir ve Ne İşe Yarar?}{525}{section.35.1}%
+\contentsline {section}{\numberline {35.2}Fonksiyon Tanımlamak ve Çağırmak}{529}{section.35.2}%
+\contentsline {section}{\numberline {35.3}Fonksiyonların Yapısı}{533}{section.35.3}%
+\contentsline {section}{\numberline {35.4}Fonksiyonlar Ne İşe Yarar?}{535}{section.35.4}%
+\contentsline {section}{\numberline {35.5}Parametreler ve Argümanlar}{539}{section.35.5}%
+\contentsline {subsection}{\numberline {35.5.1}Sıralı (veya İsimsiz) Parametreler}{541}{subsection.35.5.1}%
+\contentsline {subsection}{\numberline {35.5.2}İsimli Parametreler}{541}{subsection.35.5.2}%
+\contentsline {subsection}{\numberline {35.5.3}Varsayılan Değerli Parametreler}{542}{subsection.35.5.3}%
+\contentsline {subsection}{\numberline {35.5.4}Rastgele Sayıda İsimsiz Parametre Belirleme}{543}{subsection.35.5.4}%
+\contentsline {subsection}{\numberline {35.5.5}Rastgele Sayıda İsimli Parametre Belirleme}{545}{subsection.35.5.5}%
+\contentsline {section}{\numberline {35.6}return Deyimi}{548}{section.35.6}%
+\contentsline {section}{\numberline {35.7}Örnek bir Uygulama}{550}{section.35.7}%
+\contentsline {section}{\numberline {35.8}Fonksiyonların Kapsamı ve global Deyimi}{554}{section.35.8}%
+\contentsline {chapter}{\numberline {36}Gömülü Fonksiyonlar}{559}{chapter.36}%
+\contentsline {section}{\numberline {36.1}abs()}{559}{section.36.1}%
+\contentsline {section}{\numberline {36.2}round()}{560}{section.36.2}%
+\contentsline {section}{\numberline {36.3}all()}{562}{section.36.3}%
+\contentsline {section}{\numberline {36.4}any()}{563}{section.36.4}%
+\contentsline {section}{\numberline {36.5}ascii()}{563}{section.36.5}%
+\contentsline {section}{\numberline {36.6}repr()}{564}{section.36.6}%
+\contentsline {section}{\numberline {36.7}bool()}{565}{section.36.7}%
+\contentsline {section}{\numberline {36.8}bin()}{565}{section.36.8}%
+\contentsline {section}{\numberline {36.9}bytes()}{565}{section.36.9}%
+\contentsline {section}{\numberline {36.10}bytearray()}{568}{section.36.10}%
+\contentsline {section}{\numberline {36.11}chr()}{569}{section.36.11}%
+\contentsline {section}{\numberline {36.12}list()}{569}{section.36.12}%
+\contentsline {section}{\numberline {36.13}set()}{570}{section.36.13}%
+\contentsline {section}{\numberline {36.14}tuple()}{570}{section.36.14}%
+\contentsline {section}{\numberline {36.15}frozenset()}{571}{section.36.15}%
+\contentsline {section}{\numberline {36.16}complex()}{571}{section.36.16}%
+\contentsline {section}{\numberline {36.17}float()}{571}{section.36.17}%
+\contentsline {section}{\numberline {36.18}int()}{572}{section.36.18}%
+\contentsline {section}{\numberline {36.19}str()}{572}{section.36.19}%
+\contentsline {section}{\numberline {36.20}dict()}{573}{section.36.20}%
+\contentsline {section}{\numberline {36.21}callable()}{574}{section.36.21}%
+\contentsline {section}{\numberline {36.22}ord()}{574}{section.36.22}%
+\contentsline {section}{\numberline {36.23}oct()}{575}{section.36.23}%
+\contentsline {section}{\numberline {36.24}hex()}{575}{section.36.24}%
+\contentsline {section}{\numberline {36.25}eval(), exec(), globals(), locals(), compile()}{575}{section.36.25}%
+\contentsline {section}{\numberline {36.26}copyright()}{579}{section.36.26}%
+\contentsline {section}{\numberline {36.27}credits()}{579}{section.36.27}%
+\contentsline {section}{\numberline {36.28}license()}{579}{section.36.28}%
+\contentsline {section}{\numberline {36.29}dir()}{579}{section.36.29}%
+\contentsline {section}{\numberline {36.30}divmod()}{580}{section.36.30}%
+\contentsline {section}{\numberline {36.31}enumerate()}{580}{section.36.31}%
+\contentsline {section}{\numberline {36.32}exit()}{582}{section.36.32}%
+\contentsline {section}{\numberline {36.33}help()}{582}{section.36.33}%
+\contentsline {section}{\numberline {36.34}id()}{583}{section.36.34}%
+\contentsline {section}{\numberline {36.35}input()}{583}{section.36.35}%
+\contentsline {section}{\numberline {36.36}format()}{583}{section.36.36}%
+\contentsline {section}{\numberline {36.37}filter()}{584}{section.36.37}%
+\contentsline {section}{\numberline {36.38}hash()}{587}{section.36.38}%
+\contentsline {section}{\numberline {36.39}isinstance()}{587}{section.36.39}%
+\contentsline {section}{\numberline {36.40}len()}{588}{section.36.40}%
+\contentsline {section}{\numberline {36.41}map()}{588}{section.36.41}%
+\contentsline {section}{\numberline {36.42}max()}{589}{section.36.42}%
+\contentsline {section}{\numberline {36.43}min()}{591}{section.36.43}%
+\contentsline {section}{\numberline {36.44}open()}{591}{section.36.44}%
+\contentsline {section}{\numberline {36.45}pow()}{595}{section.36.45}%
+\contentsline {section}{\numberline {36.46}print()}{595}{section.36.46}%
+\contentsline {section}{\numberline {36.47}quit()}{596}{section.36.47}%
+\contentsline {section}{\numberline {36.48}range()}{596}{section.36.48}%
+\contentsline {section}{\numberline {36.49}reversed()}{598}{section.36.49}%
+\contentsline {section}{\numberline {36.50}sorted()}{599}{section.36.50}%
+\contentsline {section}{\numberline {36.51}slice()}{605}{section.36.51}%
+\contentsline {section}{\numberline {36.52}sum()}{606}{section.36.52}%
+\contentsline {section}{\numberline {36.53}type()}{606}{section.36.53}%
+\contentsline {section}{\numberline {36.54}zip()}{606}{section.36.54}%
+\contentsline {section}{\numberline {36.55}vars()}{607}{section.36.55}%
+\contentsline {chapter}{\numberline {37}İleri Düzey Fonksiyonlar}{609}{chapter.37}%
+\contentsline {section}{\numberline {37.1}Lambda Fonksiyonları}{609}{section.37.1}%
+\contentsline {section}{\numberline {37.2}Özyinelemeli (\sphinxstyleemphasis {Recursive}) Fonksiyonlar}{613}{section.37.2}%
+\contentsline {section}{\numberline {37.3}İç İçe (\sphinxstyleemphasis {Nested}) Fonksiyonlar}{625}{section.37.3}%
+\contentsline {subsection}{\numberline {37.3.1}İç İçe Fonksiyonlar Nedir?}{625}{subsection.37.3.1}%
+\contentsline {subsection}{\numberline {37.3.2}‘nonlocal’ Deyimi}{627}{subsection.37.3.2}%
+\contentsline {subsection}{\numberline {37.3.3}İç İçe Fonksiyonların Kullanım Alanları}{632}{subsection.37.3.3}%
+\contentsline {section}{\numberline {37.4}Üreteçler (\sphinxstyleemphasis {Generators})}{635}{section.37.4}%
+\contentsline {subsection}{\numberline {37.4.1}Üreteçlere Giriş}{635}{subsection.37.4.1}%
+\contentsline {subsection}{\numberline {37.4.2}Üreteçlerin Tanımlanması}{637}{subsection.37.4.2}%
+\contentsline {subsubsection}{‘yield’ Deyimi ve ‘next’ Fonksiyonu}{637}{subsubsection*.68}%
+\contentsline {subsubsection}{‘yield from’ Deyimi}{641}{subsubsection*.69}%
+\contentsline {subsection}{\numberline {37.4.3}Liste ve Sözlük Üreteçleri Hakkında}{642}{subsection.37.4.3}%
+\contentsline {chapter}{\numberline {38}Modüller}{647}{chapter.38}%
+\contentsline {section}{\numberline {38.1}Modül Nedir?}{647}{section.38.1}%
+\contentsline {section}{\numberline {38.2}Hazır Modüller}{649}{section.38.2}%
+\contentsline {section}{\numberline {38.3}Modüllerin İçe Aktarılması}{650}{section.38.3}%
+\contentsline {subsection}{\numberline {38.3.1}Farklı İçe Aktarma Yöntemleri}{652}{subsection.38.3.1}%
+\contentsline {subsubsection}{import modül\_adı as farklı\_isim}{653}{subsubsection*.70}%
+\contentsline {subsubsection}{from modül\_adı import isim1, isim2}{654}{subsubsection*.71}%
+\contentsline {subsubsection}{from modül\_adı import isim as farklı\_isim}{655}{subsubsection*.72}%
+\contentsline {subsubsection}{from modül\_adı import *}{656}{subsubsection*.73}%
+\contentsline {section}{\numberline {38.4}Kendi Tanımladığımız Modüller}{657}{section.38.4}%
+\contentsline {subsection}{\numberline {38.4.1}Modüllerin Tanımlanması}{658}{subsection.38.4.1}%
+\contentsline {subsection}{\numberline {38.4.2}Modüllerin Yolu}{660}{subsection.38.4.2}%
+\contentsline {subsection}{\numberline {38.4.3}Modüllerde Değişiklik Yapmak}{661}{subsection.38.4.3}%
+\contentsline {section}{\numberline {38.5}Üçüncü Şahıs Modülleri}{665}{section.38.5}%
+\contentsline {section}{\numberline {38.6}\_\_all\_\_ Listesi}{667}{section.38.6}%
+\contentsline {section}{\numberline {38.7}Modüllerin Özel Nitelikleri}{669}{section.38.7}%
+\contentsline {subsection}{\numberline {38.7.1}\_\_doc\_\_ Niteliği}{673}{subsection.38.7.1}%
+\contentsline {subsection}{\numberline {38.7.2}\_\_name\_\_ Niteliği}{674}{subsection.38.7.2}%
+\contentsline {subsection}{\numberline {38.7.3}\_\_loader\_\_ Niteliği}{677}{subsection.38.7.3}%
+\contentsline {subsection}{\numberline {38.7.4}\_\_spec\_\_ Niteliği}{678}{subsection.38.7.4}%
+\contentsline {subsection}{\numberline {38.7.5}\_\_package\_\_ Niteliği}{678}{subsection.38.7.5}%
+\contentsline {chapter}{\numberline {39}Nesne Tabanlı Programlama (OOP)}{679}{chapter.39}%
+\contentsline {section}{\numberline {39.1}Giriş}{679}{section.39.1}%
+\contentsline {section}{\numberline {39.2}Sınıflar}{680}{section.39.2}%
+\contentsline {section}{\numberline {39.3}Sınıflar Ne İşe Yarar?}{680}{section.39.3}%
+\contentsline {section}{\numberline {39.4}Sınıf Tanımlamak}{688}{section.39.4}%
+\contentsline {section}{\numberline {39.5}Sınıf Nitelikleri}{689}{section.39.5}%
+\contentsline {section}{\numberline {39.6}Sınıfların Örneklenmesi}{691}{section.39.6}%
+\contentsline {section}{\numberline {39.7}Örnek Nitelikleri}{697}{section.39.7}%
+\contentsline {section}{\numberline {39.8}\_\_init\_\_ Fonksiyonu ve self}{697}{section.39.8}%
+\contentsline {section}{\numberline {39.9}Örnek Metotları}{702}{section.39.9}%
+\contentsline {chapter}{\numberline {40}Nesne Tabanlı Programlama (Devamı)}{711}{chapter.40}%
+\contentsline {section}{\numberline {40.1}Sınıf Metotları}{711}{section.40.1}%
+\contentsline {section}{\numberline {40.2}@classmethod Bezeyicisi ve cls}{716}{section.40.2}%
+\contentsline {section}{\numberline {40.3}Alternatif İnşacılar}{719}{section.40.3}%
+\contentsline {section}{\numberline {40.4}Statik Metotlar}{728}{section.40.4}%
+\contentsline {section}{\numberline {40.5}@staticmethod Bezeyicisi}{728}{section.40.5}%
+\contentsline {chapter}{\numberline {41}Nesne Tabanlı Programlama (Devamı)}{733}{chapter.41}%
+\contentsline {section}{\numberline {41.1}Nesneler}{733}{section.41.1}%
+\contentsline {section}{\numberline {41.2}Nesne Nedir?}{733}{section.41.2}%
+\contentsline {section}{\numberline {41.3}Basit Bir Oyun}{735}{section.41.3}%
+\contentsline {section}{\numberline {41.4}Her Şey Bir Nesnedir}{745}{section.41.4}%
+\contentsline {section}{\numberline {41.5}Birinci Sınıf Öğeler}{746}{section.41.5}%
+\contentsline {chapter}{\numberline {42}Nesne Tabanlı Programlama (Devamı)}{749}{chapter.42}%
+\contentsline {section}{\numberline {42.1}Sınıf Üyeleri}{749}{section.42.1}%
+\contentsline {subsection}{\numberline {42.1.1}Aleni Üyeler}{749}{subsection.42.1.1}%
+\contentsline {subsection}{\numberline {42.1.2}Gizli Üyeler}{751}{subsection.42.1.2}%
+\contentsline {subsection}{\numberline {42.1.3}İsim Bulandırma}{755}{subsection.42.1.3}%
+\contentsline {subsection}{\numberline {42.1.4}Yarı\sphinxhyphen {}gizli Üyeler}{758}{subsection.42.1.4}%
+\contentsline {section}{\numberline {42.2}@property Bezeyicisi}{759}{section.42.2}%
+\contentsline {subsection}{\numberline {42.2.1}Metottan Niteliğe}{763}{subsection.42.2.1}%
+\contentsline {subsection}{\numberline {42.2.2}Salt Okunur Nitelikler}{766}{subsection.42.2.2}%
+\contentsline {subsection}{\numberline {42.2.3}Veri Doğrulaması}{767}{subsection.42.2.3}%
+\contentsline {chapter}{\numberline {43}Nesne Tabanlı Programlama (Devamı)}{771}{chapter.43}%
+\contentsline {section}{\numberline {43.1}Miras Alma}{771}{section.43.1}%
+\contentsline {section}{\numberline {43.2}Taban Sınıflar}{773}{section.43.2}%
+\contentsline {section}{\numberline {43.3}Alt Sınıflar}{775}{section.43.3}%
+\contentsline {section}{\numberline {43.4}Miras Alma Türleri}{778}{section.43.4}%
+\contentsline {section}{\numberline {43.5}super()}{783}{section.43.5}%
+\contentsline {section}{\numberline {43.6}object Sınıfı}{787}{section.43.6}%
+\contentsline {chapter}{\numberline {44}Nesne Tabanlı Programlama (Devamı)}{789}{chapter.44}%
+\contentsline {section}{\numberline {44.1}Tkinter Hakkında}{789}{section.44.1}%
+\contentsline {section}{\numberline {44.2}Prosedürel Bir Örnek}{790}{section.44.2}%
+\contentsline {section}{\numberline {44.3}Sınıflı Bir Örnek}{795}{section.44.3}%
+\contentsline {section}{\numberline {44.4}Çoklu Miras Alma}{797}{section.44.4}%
+\contentsline {section}{\numberline {44.5}Dahil Etme}{799}{section.44.5}%
+\contentsline {chapter}{\numberline {45}Nesne Tabanlı Programlama (Devamı)}{801}{chapter.45}%
+\contentsline {section}{\numberline {45.1}İnşa, İlklendirme ve Sonlandırma}{801}{section.45.1}%
+\contentsline {subsection}{\numberline {45.1.1}\_\_new\_\_() Metodu}{801}{subsection.45.1.1}%
+\contentsline {chapter}{\numberline {46}Paketler}{805}{chapter.46}%
+\contentsline {section}{\numberline {46.1}Paket Nedir?}{805}{section.46.1}%
+\contentsline {section}{\numberline {46.2}Paket Türleri}{806}{section.46.2}%
+\contentsline {subsection}{\numberline {46.2.1}Standart Paketler}{806}{subsection.46.2.1}%
+\contentsline {subsection}{\numberline {46.2.2}Üçüncü Şahıs Paketleri}{807}{subsection.46.2.2}%
+\contentsline {section}{\numberline {46.3}Paketlerin İçe Aktarılması}{808}{section.46.3}%
+\contentsline {subsection}{\numberline {46.3.1}import paket}{809}{subsection.46.3.1}%
+\contentsline {subsection}{\numberline {46.3.2}import paket.modül}{809}{subsection.46.3.2}%
+\contentsline {subsection}{\numberline {46.3.3}from paket import modül}{809}{subsection.46.3.3}%
+\contentsline {subsection}{\numberline {46.3.4}from paket.modül import nitelik\_veya\_metot}{810}{subsection.46.3.4}%
+\contentsline {subsection}{\numberline {46.3.5}from paket.modül import *}{810}{subsection.46.3.5}%
+\contentsline {section}{\numberline {46.4}Kendi Oluşturduğumuz Paketler}{810}{section.46.4}%
+\contentsline {subsection}{\numberline {46.4.1}Paket Oluşturmak}{811}{subsection.46.4.1}%
+\contentsline {subsection}{\numberline {46.4.2}İçe Aktarma İşlemleri}{812}{subsection.46.4.2}%
+\contentsline {subsection}{\numberline {46.4.3}İçe Aktarma Mantığı}{815}{subsection.46.4.3}%
+\contentsline {subsubsection}{İçe Aktarma İşleminin Konumu}{815}{subsubsection*.74}%
+\contentsline {subsubsection}{Bağıl İçe Aktarma}{816}{subsubsection*.75}%
+\contentsline {subsection}{\numberline {46.4.4}Paketlerin Yola Eklenmesi}{817}{subsection.46.4.4}%
+\contentsline {subsection}{\numberline {46.4.5}Paketlerde İsim Çakışmaları}{818}{subsection.46.4.5}%
+\contentsline {subsubsection}{\_\_init\_\_.py Dosyası}{818}{subsubsection*.76}%
+\contentsline {chapter}{\numberline {47}Önemli Standart Kütüphane Modülleri}{819}{chapter.47}%
+\contentsline {section}{\numberline {47.1}Düzenli İfadeler}{819}{section.47.1}%
+\contentsline {subsection}{\numberline {47.1.1}Düzenli İfadelerin Metotları}{820}{subsection.47.1.1}%
+\contentsline {subsubsection}{match() Metodu}{821}{subsubsection*.77}%
+\contentsline {subsubsection}{search() Metodu}{824}{subsubsection*.78}%
+\contentsline {subsubsection}{findall() Metodu}{826}{subsubsection*.79}%
+\contentsline {subsection}{\numberline {47.1.2}Metakarakterler}{827}{subsection.47.1.2}%
+\contentsline {subsubsection}{{[} {]} (Köşeli Parantez)}{829}{subsubsection*.80}%
+\contentsline {subsubsection}{. (Nokta)}{830}{subsubsection*.81}%
+\contentsline {subsubsection}{* (Yıldız)}{832}{subsubsection*.82}%
+\contentsline {subsubsection}{+ (Artı)}{833}{subsubsection*.83}%
+\contentsline {subsubsection}{? (Soru İşareti)}{834}{subsubsection*.84}%
+\contentsline {subsubsection}{\{ \} (Küme Parantezi)}{836}{subsubsection*.85}%
+\contentsline {subsubsection}{\textasciicircum {} (Şapka)}{836}{subsubsection*.86}%
+\contentsline {subsubsection}{\$ (Dolar)}{838}{subsubsection*.87}%
+\contentsline {subsubsection}{\textbackslash {} (Ters Bölü)}{839}{subsubsection*.88}%
+\contentsline {subsubsection}{| (Dik Çizgi)}{840}{subsubsection*.89}%
+\contentsline {subsubsection}{( ) (Parantez)}{840}{subsubsection*.90}%
+\contentsline {subsection}{\numberline {47.1.3}Eşleşme Nesnelerinin Metotları}{842}{subsection.47.1.3}%
+\contentsline {subsubsection}{group() metodu}{842}{subsubsection*.91}%
+\contentsline {subsubsection}{groups() metodu}{843}{subsubsection*.92}%
+\contentsline {subsection}{\numberline {47.1.4}Özel Diziler}{845}{subsection.47.1.4}%
+\contentsline {subsubsection}{Ondalık Sayıların Yerini Tutan Özel Dizi: \textbackslash {}d}{845}{subsubsection*.93}%
+\contentsline {subsubsection}{Alfanümerik Karakterlerin Yerini Tutan Özel Dizi: \textbackslash {}w}{845}{subsubsection*.94}%
+\contentsline {subsection}{\numberline {47.1.5}Düzenli İfadelerin Derlenmesi}{847}{subsection.47.1.5}%
+\contentsline {subsubsection}{compile() metodu}{847}{subsubsection*.95}%
+\contentsline {subsubsection}{compile() ile Derleme Seçenekleri}{847}{subsubsection*.96}%
+\contentsline {paragraph}{re.IGNORECASE veya re.I}{847}{paragraph*.97}%
+\contentsline {paragraph}{re.DOTALL veya re.S}{848}{paragraph*.98}%
+\contentsline {subsection}{\numberline {47.1.6}Düzenli İfadelerle Metin/Karakter Dizisi Değiştirme İşlemleri}{849}{subsection.47.1.6}%
+\contentsline {subsubsection}{sub() metodu}{849}{subsubsection*.99}%
+\contentsline {subsubsection}{subn() metodu}{852}{subsubsection*.100}%
+\contentsline {subsection}{\numberline {47.1.7}Sonuç}{852}{subsection.47.1.7}%
+\contentsline {section}{\numberline {47.2}datetime Modülü}{853}{section.47.2}%
+\contentsline {subsection}{\numberline {47.2.1}now()}{854}{subsection.47.2.1}%
+\contentsline {subsection}{\numberline {47.2.2}today()}{855}{subsection.47.2.2}%
+\contentsline {subsection}{\numberline {47.2.3}ctime()}{855}{subsection.47.2.3}%
+\contentsline {subsection}{\numberline {47.2.4}strftime()}{855}{subsection.47.2.4}%
+\contentsline {subsection}{\numberline {47.2.5}strptime()}{858}{subsection.47.2.5}%
+\contentsline {subsection}{\numberline {47.2.6}fromtimestamp()}{860}{subsection.47.2.6}%
+\contentsline {subsection}{\numberline {47.2.7}timestamp()}{860}{subsection.47.2.7}%
+\contentsline {subsection}{\numberline {47.2.8}Tarihlerle İlgili Aritmetik İşlemler}{861}{subsection.47.2.8}%
+\contentsline {subsubsection}{Belirli Bir Tarihi Kaydetmek}{861}{subsubsection*.101}%
+\contentsline {subsubsection}{İki Tarih Arasındaki Farkı Bulmak}{862}{subsubsection*.102}%
+\contentsline {subsubsection}{İleri Bir Tarihi Bulmak}{862}{subsubsection*.103}%
+\contentsline {subsubsection}{Geçmiş Bir Tarihi Bulmak}{863}{subsubsection*.104}%
+\contentsline {section}{\numberline {47.3}math Modülü}{863}{section.47.3}%
+\contentsline {subsection}{\numberline {47.3.1}math.ceil()}{864}{subsection.47.3.1}%
+\contentsline {subsection}{\numberline {47.3.2}math.copysign()}{864}{subsection.47.3.2}%
+\contentsline {subsection}{\numberline {47.3.3}math.fabs()}{864}{subsection.47.3.3}%
+\contentsline {subsection}{\numberline {47.3.4}math.factorial()}{864}{subsection.47.3.4}%
+\contentsline {subsection}{\numberline {47.3.5}math.floor()}{865}{subsection.47.3.5}%
+\contentsline {subsection}{\numberline {47.3.6}math.fmod()}{865}{subsection.47.3.6}%
+\contentsline {subsection}{\numberline {47.3.7}math.frexp()}{865}{subsection.47.3.7}%
+\contentsline {subsection}{\numberline {47.3.8}math.fsum()}{865}{subsection.47.3.8}%
+\contentsline {subsection}{\numberline {47.3.9}math.gcd()}{866}{subsection.47.3.9}%
+\contentsline {subsection}{\numberline {47.3.10}math.trunc()}{866}{subsection.47.3.10}%
+\contentsline {subsection}{\numberline {47.3.11}math.e}{866}{subsection.47.3.11}%
+\contentsline {subsection}{\numberline {47.3.12}math.pi}{866}{subsection.47.3.12}%
+\contentsline {subsection}{\numberline {47.3.13}math.tau}{866}{subsection.47.3.13}%
+\contentsline {subsection}{\numberline {47.3.14}math.exp()}{867}{subsection.47.3.14}%
+\contentsline {subsection}{\numberline {47.3.15}math.expm1()}{867}{subsection.47.3.15}%
+\contentsline {subsection}{\numberline {47.3.16}math.log()}{867}{subsection.47.3.16}%
+\contentsline {subsection}{\numberline {47.3.17}math.log1p()}{867}{subsection.47.3.17}%
+\contentsline {subsection}{\numberline {47.3.18}math.log2()}{867}{subsection.47.3.18}%
+\contentsline {subsection}{\numberline {47.3.19}math.log10()}{868}{subsection.47.3.19}%
+\contentsline {subsection}{\numberline {47.3.20}math.pow()}{868}{subsection.47.3.20}%
+\contentsline {subsection}{\numberline {47.3.21}math.sqrt()}{868}{subsection.47.3.21}%
+\contentsline {subsection}{\numberline {47.3.22}math.degrees()}{868}{subsection.47.3.22}%
+\contentsline {subsection}{\numberline {47.3.23}math.radians()}{868}{subsection.47.3.23}%
+\contentsline {subsection}{\numberline {47.3.24}math.sin()}{869}{subsection.47.3.24}%
+\contentsline {subsection}{\numberline {47.3.25}math.cos()}{869}{subsection.47.3.25}%
+\contentsline {subsection}{\numberline {47.3.26}math.tan()}{869}{subsection.47.3.26}%
+\contentsline {subsection}{\numberline {47.3.27}math.asin()}{869}{subsection.47.3.27}%
+\contentsline {subsection}{\numberline {47.3.28}math.acos()}{869}{subsection.47.3.28}%
+\contentsline {subsection}{\numberline {47.3.29}math.atan()}{869}{subsection.47.3.29}%
+\contentsline {subsection}{\numberline {47.3.30}math.atan2()}{869}{subsection.47.3.30}%
+\contentsline {subsection}{\numberline {47.3.31}math.hypot()}{869}{subsection.47.3.31}%
+\contentsline {subsection}{\numberline {47.3.32}math.cosh()}{869}{subsection.47.3.32}%
+\contentsline {subsection}{\numberline {47.3.33}math.sinh()}{870}{subsection.47.3.33}%
+\contentsline {subsection}{\numberline {47.3.34}math.tanh()}{870}{subsection.47.3.34}%
+\contentsline {subsection}{\numberline {47.3.35}math.acosh()}{870}{subsection.47.3.35}%
+\contentsline {subsection}{\numberline {47.3.36}math.asinh()}{870}{subsection.47.3.36}%
+\contentsline {subsection}{\numberline {47.3.37}math.atanh()}{870}{subsection.47.3.37}%
+\contentsline {subsection}{\numberline {47.3.38}math.gamma()}{870}{subsection.47.3.38}%
+\contentsline {subsection}{\numberline {47.3.39}math.lgamma()}{870}{subsection.47.3.39}%
+\contentsline {section}{\numberline {47.4}random Modülü}{871}{section.47.4}%
+\contentsline {subsection}{\numberline {47.4.1}random()}{871}{subsection.47.4.1}%
+\contentsline {subsection}{\numberline {47.4.2}uniform()}{872}{subsection.47.4.2}%
+\contentsline {subsection}{\numberline {47.4.3}randint()}{872}{subsection.47.4.3}%
+\contentsline {subsection}{\numberline {47.4.4}choice()}{872}{subsection.47.4.4}%
+\contentsline {subsection}{\numberline {47.4.5}shuffle()}{873}{subsection.47.4.5}%
+\contentsline {subsection}{\numberline {47.4.6}randrange()}{874}{subsection.47.4.6}%
+\contentsline {subsection}{\numberline {47.4.7}sample()}{875}{subsection.47.4.7}%
+\contentsline {section}{\numberline {47.5}Sqlite ile Veritabanı Programlama}{875}{section.47.5}%
+\contentsline {subsection}{\numberline {47.5.1}Giriş}{875}{subsection.47.5.1}%
+\contentsline {subsection}{\numberline {47.5.2}Neden Sqlite?}{875}{subsection.47.5.2}%
+\contentsline {subsection}{\numberline {47.5.3}Sqlite’ın Yapısı}{876}{subsection.47.5.3}%
+\contentsline {subsection}{\numberline {47.5.4}Yardımcı Araçlar}{876}{subsection.47.5.4}%
+\contentsline {subsubsection}{Sqlitebrowser}{876}{subsubsection*.105}%
+\contentsline {subsubsection}{Örnek Veritabanı}{878}{subsubsection*.106}%
+\contentsline {subsection}{\numberline {47.5.5}Yeni Bir Veritabanı Oluşturmak}{878}{subsection.47.5.5}%
+\contentsline {subsection}{\numberline {47.5.6}Varolan Bir Veritabanıyla Bağlantı Kurmak}{879}{subsection.47.5.6}%
+\contentsline {subsection}{\numberline {47.5.7}İmleç Oluşturma}{880}{subsection.47.5.7}%
+\contentsline {subsection}{\numberline {47.5.8}Tablo Oluşturma}{880}{subsection.47.5.8}%
+\contentsline {subsection}{\numberline {47.5.9}Şartlı Tablo Oluşturma}{881}{subsection.47.5.9}%
+\contentsline {subsection}{\numberline {47.5.10}Tabloya Veri Girme}{882}{subsection.47.5.10}%
+\contentsline {subsection}{\numberline {47.5.11}Verilerin Veritabanına İşlenmesi}{884}{subsection.47.5.11}%
+\contentsline {subsection}{\numberline {47.5.12}Veritabanının Kapatılması}{885}{subsection.47.5.12}%
+\contentsline {subsection}{\numberline {47.5.13}Parametreli Sorgular}{886}{subsection.47.5.13}%
+\contentsline {subsection}{\numberline {47.5.14}Tablodaki Verileri Seçmek}{886}{subsection.47.5.14}%
+\contentsline {subsection}{\numberline {47.5.15}Seçilen Verileri Almak}{887}{subsection.47.5.15}%
+\contentsline {subsubsection}{fetchall() Metodu}{887}{subsubsection*.107}%
+\contentsline {subsubsection}{fetchone() Metodu}{891}{subsubsection*.108}%
+\contentsline {subsubsection}{fetchmany() Metodu}{891}{subsubsection*.109}%
+\contentsline {subsection}{\numberline {47.5.16}Veri Süzme}{892}{subsection.47.5.16}%
+\contentsline {subsection}{\numberline {47.5.17}Veritabanı Güvenliği}{893}{subsection.47.5.17}%
+\contentsline {subsection}{\numberline {47.5.18}Bölüm Soruları}{898}{subsection.47.5.18}%
+\contentsline {section}{\numberline {47.6}os Modülü}{900}{section.47.6}%
+\contentsline {subsection}{\numberline {47.6.1}os.name}{900}{subsection.47.6.1}%
+\contentsline {subsection}{\numberline {47.6.2}os.sep}{901}{subsection.47.6.2}%
+\contentsline {subsection}{\numberline {47.6.3}os.getcwd()}{901}{subsection.47.6.3}%
+\contentsline {subsection}{\numberline {47.6.4}os.chdir()}{902}{subsection.47.6.4}%
+\contentsline {subsection}{\numberline {47.6.5}os.listdir()}{902}{subsection.47.6.5}%
+\contentsline {subsection}{\numberline {47.6.6}os.curdir}{903}{subsection.47.6.6}%
+\contentsline {subsection}{\numberline {47.6.7}os.pardir}{903}{subsection.47.6.7}%
+\contentsline {subsection}{\numberline {47.6.8}os.startfile()}{903}{subsection.47.6.8}%
+\contentsline {subsection}{\numberline {47.6.9}os.mkdir()}{904}{subsection.47.6.9}%
+\contentsline {subsection}{\numberline {47.6.10}os.makedirs()}{905}{subsection.47.6.10}%
+\contentsline {subsection}{\numberline {47.6.11}os.rename()}{905}{subsection.47.6.11}%
+\contentsline {subsection}{\numberline {47.6.12}os.replace()}{906}{subsection.47.6.12}%
+\contentsline {subsection}{\numberline {47.6.13}os.remove()}{906}{subsection.47.6.13}%
+\contentsline {subsection}{\numberline {47.6.14}os.rmdir()}{906}{subsection.47.6.14}%
+\contentsline {subsection}{\numberline {47.6.15}os.removedirs()}{907}{subsection.47.6.15}%
+\contentsline {subsection}{\numberline {47.6.16}os.stat()}{907}{subsection.47.6.16}%
+\contentsline {subsection}{\numberline {47.6.17}os.system()}{908}{subsection.47.6.17}%
+\contentsline {subsection}{\numberline {47.6.18}os.urandom()}{908}{subsection.47.6.18}%
+\contentsline {subsection}{\numberline {47.6.19}os.walk()}{908}{subsection.47.6.19}%
+\contentsline {subsection}{\numberline {47.6.20}os.environ}{914}{subsection.47.6.20}%
+\contentsline {subsection}{\numberline {47.6.21}os.path}{915}{subsection.47.6.21}%
+\contentsline {subsubsection}{os.path.abspath()}{915}{subsubsection*.110}%
+\contentsline {subsubsection}{os.path.dirname()}{915}{subsubsection*.111}%
+\contentsline {subsubsection}{os.path.exists()}{915}{subsubsection*.112}%
+\contentsline {subsubsection}{os.path.expanduser()}{915}{subsubsection*.113}%
+\contentsline {subsubsection}{os.path.isdir()}{916}{subsubsection*.114}%
+\contentsline {subsubsection}{os.path.isfile()}{916}{subsubsection*.115}%
+\contentsline {subsubsection}{os.path.join()}{916}{subsubsection*.116}%
+\contentsline {subsubsection}{os.path.split()}{916}{subsubsection*.117}%
+\contentsline {subsubsection}{os.path.splitext()}{917}{subsubsection*.118}%
+\contentsline {section}{\numberline {47.7}time Modülü}{918}{section.47.7}%
+\contentsline {subsection}{\numberline {47.7.1}gmtime()}{918}{subsection.47.7.1}%
+\contentsline {subsection}{\numberline {47.7.2}time()}{919}{subsection.47.7.2}%
+\contentsline {subsection}{\numberline {47.7.3}localtime()}{919}{subsection.47.7.3}%
+\contentsline {subsection}{\numberline {47.7.4}asctime()}{920}{subsection.47.7.4}%
+\contentsline {subsection}{\numberline {47.7.5}strftime()}{921}{subsection.47.7.5}%
+\contentsline {subsection}{\numberline {47.7.6}strptime()}{922}{subsection.47.7.6}%
+\contentsline {subsection}{\numberline {47.7.7}sleep()}{922}{subsection.47.7.7}%
+\contentsline {section}{\numberline {47.8}curses Modülü}{923}{section.47.8}%
+\contentsline {subsection}{\numberline {47.8.1}curses Nedir?}{923}{subsection.47.8.1}%
+\contentsline {subsection}{\numberline {47.8.2}Python Curses Modülü}{923}{subsection.47.8.2}%
+\contentsline {subsection}{\numberline {47.8.3}Bir Curses Uygulamasını Başlatma ve Sonlandırma}{923}{subsection.47.8.3}%
+\contentsline {subsection}{\numberline {47.8.4}Örnekler:}{924}{subsection.47.8.4}%
+\contentsline {subsection}{\numberline {47.8.5}Örnek\sphinxhyphen {}1:}{924}{subsection.47.8.5}%
+\contentsline {subsection}{\numberline {47.8.6}Örnek\sphinxhyphen {}2:}{925}{subsection.47.8.6}%
+\contentsline {subsection}{\numberline {47.8.7}Örnek\sphinxhyphen {}3:}{926}{subsection.47.8.7}%
+\contentsline {subsection}{\numberline {47.8.8}Örnek\sphinxhyphen {}4}{928}{subsection.47.8.8}%
+\contentsline {subsection}{\numberline {47.8.9}Örnek\sphinxhyphen {}5:}{931}{subsection.47.8.9}%
+\contentsline {subsection}{\numberline {47.8.10}Örnek\sphinxhyphen {}6:}{934}{subsection.47.8.10}%
+\contentsline {subsection}{\numberline {47.8.11}Örnek\sphinxhyphen {}7:}{938}{subsection.47.8.11}%
+\contentsline {subsection}{\numberline {47.8.12}Örnek\sphinxhyphen {}8:}{942}{subsection.47.8.12}%
+\contentsline {subsection}{\numberline {47.8.13}Örnek\sphinxhyphen {}9:}{949}{subsection.47.8.13}%
+\contentsline {section}{\numberline {47.9}threading Modülü}{951}{section.47.9}%
+\contentsline {subsection}{\numberline {47.9.1}Yerel İş Parçacığı (Thread\sphinxhyphen {}Local) Verisi}{953}{subsection.47.9.1}%
+\contentsline {subsection}{\numberline {47.9.2}İş Parçacığı (Thread) Nesneleri}{953}{subsection.47.9.2}%
+\contentsline {subsection}{\numberline {47.9.3}Lock (Kilit) Nesneleri}{956}{subsection.47.9.3}%
+\contentsline {subsection}{\numberline {47.9.4}Rlock (Yeniden Girilir Kilit) Nesneleri}{957}{subsection.47.9.4}%
+\contentsline {subsection}{\numberline {47.9.5}Condition (Durum) Nesneleri}{958}{subsection.47.9.5}%
+\contentsline {subsection}{\numberline {47.9.6}Semaphore Nesneleri}{960}{subsection.47.9.6}%
+\contentsline {subsection}{\numberline {47.9.7}Event (Olay) Nesneleri}{961}{subsection.47.9.7}%
+\contentsline {subsection}{\numberline {47.9.8}Timer (Zamanlayıcı) Nesneleri}{962}{subsection.47.9.8}%
+\contentsline {subsection}{\numberline {47.9.9}Barrier (Engel) Nesneleri}{963}{subsection.47.9.9}%
+\contentsline {subsection}{\numberline {47.9.10}Kilitleri, Durumları ve Semaforları \sphinxtitleref {with} deyimi ile birlikte kullanmak}{964}{subsection.47.9.10}%
+\contentsline {subsection}{\numberline {47.9.11}Örnekler:}{965}{subsection.47.9.11}%
+\contentsline {section}{\numberline {47.10}sched modülü}{982}{section.47.10}%
+\contentsline {subsection}{\numberline {47.10.1}scheduler.enter()}{983}{subsection.47.10.1}%
+\contentsline {subsection}{\numberline {47.10.2}scheduler.enterabs()}{983}{subsection.47.10.2}%
+\contentsline {subsection}{\numberline {47.10.3}scheduler.cancel()}{983}{subsection.47.10.3}%
+\contentsline {subsection}{\numberline {47.10.4}scheduler.empty()}{983}{subsection.47.10.4}%
+\contentsline {subsection}{\numberline {47.10.5}scheduler.run()}{983}{subsection.47.10.5}%
+\contentsline {subsection}{\numberline {47.10.6}scheduler.queue}{983}{subsection.47.10.6}%
+\contentsline {subsection}{\numberline {47.10.7}Örnekler}{983}{subsection.47.10.7}%
+\contentsline {section}{\numberline {47.11}json Modülü}{985}{section.47.11}%
+\contentsline {subsection}{\numberline {47.11.1}json.dump ve json.dumps}{985}{subsection.47.11.1}%
+\contentsline {subsection}{\numberline {47.11.2}json.load ve json.loads}{987}{subsection.47.11.2}%
+\contentsline {section}{\numberline {47.12}timeit Modülü}{988}{section.47.12}%
+\contentsline {subsection}{\numberline {47.12.1}Temel Örnekler}{988}{subsection.47.12.1}%
+\contentsline {subsection}{\numberline {47.12.2}Python Arayüzü}{989}{subsection.47.12.2}%
+\contentsline {subsection}{\numberline {47.12.3}Komut Satırı Arayüzü}{990}{subsection.47.12.3}%
+\contentsline {subsection}{\numberline {47.12.4}Örnekler}{991}{subsection.47.12.4}%
+\contentsline {section}{\numberline {47.13}sys Modülü}{994}{section.47.13}%
+\contentsline {subsection}{\numberline {47.13.1}sys.exit()}{994}{subsection.47.13.1}%
+\contentsline {subsection}{\numberline {47.13.2}sys.argv}{995}{subsection.47.13.2}%
+\contentsline {subsection}{\numberline {47.13.3}sys.executable}{997}{subsection.47.13.3}%
+\contentsline {subsection}{\numberline {47.13.4}sys.getwindowsversion()}{997}{subsection.47.13.4}%
+\contentsline {subsection}{\numberline {47.13.5}sys.path}{998}{subsection.47.13.5}%
+\contentsline {subsection}{\numberline {47.13.6}sys.platform}{998}{subsection.47.13.6}%
+\contentsline {subsection}{\numberline {47.13.7}sys.prefix}{998}{subsection.47.13.7}%
+\contentsline {subsection}{\numberline {47.13.8}sys.ps1}{998}{subsection.47.13.8}%
+\contentsline {subsection}{\numberline {47.13.9}sys.ps2}{999}{subsection.47.13.9}%
+\contentsline {subsection}{\numberline {47.13.10}sys.version}{999}{subsection.47.13.10}%
+\contentsline {subsection}{\numberline {47.13.11}sys.version\_info}{999}{subsection.47.13.11}%
+\contentsline {subsection}{\numberline {47.13.12}sys.winver}{1000}{subsection.47.13.12}%
+\contentsline {subsection}{\numberline {47.13.13}sys.stdout}{1000}{subsection.47.13.13}%
+\contentsline {subsection}{\numberline {47.13.14}sys.stderr}{1003}{subsection.47.13.14}%
+\contentsline {subsection}{\numberline {47.13.15}sys.stdin}{1004}{subsection.47.13.15}%
+\contentsline {section}{\numberline {47.14}argparse Modülü}{1006}{section.47.14}%
+\contentsline {subsection}{\numberline {47.14.1}Giriş}{1006}{subsection.47.14.1}%
+\contentsline {subsubsection}{Ayrıştırıcı Oluşturmak}{1006}{subsubsection*.119}%
+\contentsline {subsubsection}{Argüman Eklemek}{1006}{subsubsection*.120}%
+\contentsline {subsubsection}{Argüman Ayrıştırmak}{1006}{subsubsection*.121}%
+\contentsline {subsection}{\numberline {47.14.2}ArgumentParser Nesnesi}{1007}{subsection.47.14.2}%
+\contentsline {subsubsection}{Argümanlar ve Açıklamaları}{1007}{subsubsection*.122}%
+\contentsline {paragraph}{prog argümanı}{1007}{paragraph*.123}%
+\contentsline {paragraph}{usage argümanı}{1008}{paragraph*.124}%
+\contentsline {paragraph}{description argümanı}{1009}{paragraph*.125}%
+\contentsline {paragraph}{epilog argümanı}{1009}{paragraph*.126}%
+\contentsline {paragraph}{parents argümanı}{1010}{paragraph*.127}%
+\contentsline {paragraph}{formatter\_class argümanı}{1011}{paragraph*.128}%
+\contentsline {paragraph}{prefix\_chars argümanı}{1013}{paragraph*.129}%
+\contentsline {paragraph}{fromfile\_prefix\_chars argümanı}{1013}{paragraph*.130}%
+\contentsline {paragraph}{argument\_default argümanı}{1014}{paragraph*.131}%
+\contentsline {paragraph}{allow\_abbrev argümanı}{1014}{paragraph*.132}%
+\contentsline {paragraph}{conflict\_handler argümanı}{1015}{paragraph*.133}%
+\contentsline {paragraph}{add\_help argümanı}{1016}{paragraph*.134}%
+\contentsline {subsection}{\numberline {47.14.3}add\_argument() Fonksiyonu}{1017}{subsection.47.14.3}%
+\contentsline {subsubsection}{Parametreler ve açıklamaları}{1017}{subsubsection*.135}%
+\contentsline {paragraph}{name veya flags (isim veya bayrak)}{1017}{paragraph*.136}%
+\contentsline {paragraph}{action}{1018}{paragraph*.137}%
+\contentsline {paragraph}{nargs}{1020}{paragraph*.138}%
+\contentsline {paragraph}{const}{1022}{paragraph*.139}%
+\contentsline {paragraph}{default}{1022}{paragraph*.140}%
+\contentsline {paragraph}{type}{1023}{paragraph*.141}%
+\contentsline {paragraph}{choices}{1023}{paragraph*.142}%
+\contentsline {paragraph}{\sphinxtitleref {required}}{1024}{paragraph*.143}%
+\contentsline {paragraph}{help}{1024}{paragraph*.144}%
+\contentsline {paragraph}{metavar}{1025}{paragraph*.145}%
+\contentsline {paragraph}{dest}{1026}{paragraph*.146}%
+\contentsline {chapter}{\numberline {48}Üçüncü Taraf Modüller}{1027}{chapter.48}%
+\contentsline {section}{\numberline {48.1}Colorama Modülü}{1027}{section.48.1}%
+\contentsline {subsection}{\numberline {48.1.1}Kurulum}{1027}{subsection.48.1.1}%
+\contentsline {subsection}{\numberline {48.1.2}Kullanım}{1027}{subsection.48.1.2}%
+\contentsline {subsubsection}{Colorama modülünün termcolor modülü ile kullanımı}{1028}{subsubsection*.147}%
+\contentsline {subsection}{\numberline {48.1.3}İnit fonksiyonun argümanları}{1028}{subsection.48.1.3}%
+\contentsline {subsubsection}{autoreset=False}{1029}{subsubsection*.148}%
+\contentsline {section}{\numberline {48.2}django Paketi}{1029}{section.48.2}%
+\contentsline {subsection}{\numberline {48.2.1}İLK DJANGO PROJENİ YAZ, part 1}{1029}{subsection.48.2.1}%
+\contentsline {subsubsection}{Bir proje oluştur}{1029}{subsubsection*.149}%
+\contentsline {subsubsection}{Geliştirme sunucusu}{1030}{subsubsection*.150}%
+\contentsline {subsubsection}{Kullanılan portu değiştirme}{1030}{subsubsection*.151}%
+\contentsline {subsubsection}{Bir anket uygulaması oluşturalım}{1031}{subsubsection*.152}%
+\contentsline {subsubsection}{İlk view’ımızı yazalım}{1031}{subsubsection*.153}%
+\contentsline {subsection}{\numberline {48.2.2}İLK DJANGO PROJENİ YAZ, part 2}{1032}{subsection.48.2.2}%
+\contentsline {subsubsection}{Veritabanı Kurulumu}{1032}{subsubsection*.154}%
+\contentsline {subsubsection}{Model oluşturalım}{1033}{subsubsection*.155}%
+\contentsline {subsubsection}{Modellerin Aktifleştirilmesi}{1033}{subsubsection*.156}%
+\contentsline {subsubsection}{API ile oynayalım}{1035}{subsubsection*.157}%
+\contentsline {subsubsection}{Yönetici Paneli}{1038}{subsubsection*.158}%
+\contentsline {paragraph}{Bir yönetici kullanıcısı oluşturalım}{1038}{paragraph*.159}%
+\contentsline {paragraph}{Geliştirme Sunucusunu Başlatın}{1039}{paragraph*.160}%
+\contentsline {paragraph}{Yönetici Paneline Giriş yapalım}{1039}{paragraph*.161}%
+\contentsline {paragraph}{Anket uygulamamızı yönetici panelinden kontrol edelim}{1040}{paragraph*.162}%
+\contentsline {paragraph}{Yönetici panelinin işlevselliğini keşfedelim}{1040}{paragraph*.163}%
+\contentsline {subsection}{\numberline {48.2.3}İLK DJANGO PROJENİ YAZ, part 3}{1042}{subsection.48.2.3}%
+\contentsline {subsubsection}{Genel Bakış}{1042}{subsubsection*.164}%
+\contentsline {subsubsection}{Birkaç view yazalım}{1042}{subsubsection*.165}%
+\contentsline {subsubsection}{Gerçekten bir şeyler yapan viewlar yazalım}{1043}{subsubsection*.166}%
+\contentsline {subsubsection}{render()}{1045}{subsubsection*.167}%
+\contentsline {subsubsection}{404 hatası}{1045}{subsubsection*.168}%
+\contentsline {subsubsection}{get\_object\_or\_404()}{1046}{subsubsection*.169}%
+\contentsline {subsubsection}{Şablon sistemi kullanalım}{1046}{subsubsection*.170}%
+\contentsline {subsubsection}{Şablonlardaki sabit URL’leri kaldıralım}{1046}{subsubsection*.171}%
+\contentsline {subsubsection}{URL alanları}{1047}{subsubsection*.172}%
+\contentsline {subsection}{\numberline {48.2.4}İLK DJANGO PROJENİ YAZ, part 4}{1047}{subsection.48.2.4}%
+\contentsline {subsubsection}{Basit bir form yazalım}{1047}{subsubsection*.173}%
+\contentsline {subsubsection}{Kalıp viewlar kullanalım}{1050}{subsubsection*.174}%
+\contentsline {paragraph}{URLconf’u değiştir}{1050}{paragraph*.175}%
+\contentsline {paragraph}{Görünümleri değiştir}{1050}{paragraph*.176}%
+\contentsline {subsection}{\numberline {48.2.5}İçerik İşlemcileri}{1051}{subsection.48.2.5}%
+\contentsline {subsubsection}{İçerik İşlemcileri Nedir}{1051}{subsubsection*.177}%
+\contentsline {subsubsection}{İçerik İşlemcileri Nasıl Oluşturulur?}{1052}{subsubsection*.178}%
+\contentsline {subsubsection}{İçerik İşlemcileri Nerelerde Kullanılabilir?}{1053}{subsubsection*.179}%
+\contentsline {subsection}{\numberline {48.2.6}Django ile reCAPTCHA Kullanımı}{1055}{subsection.48.2.6}%
+\contentsline {subsection}{\numberline {48.2.7}Django Kişiselleştirilmiş Kullanıcı Modelini Dahili Model ile Genişletmek}{1059}{subsection.48.2.7}%
+\contentsline {subsubsection}{Bu Yöntemin Avantajları Neler?}{1060}{subsubsection*.180}%
+\contentsline {subsubsection}{Nasıl Yapılır?}{1060}{subsubsection*.181}%
+\contentsline {section}{\numberline {48.3}Kivy Paketi}{1061}{section.48.3}%
+\contentsline {subsection}{\numberline {48.3.1}Kivy Nedir?}{1061}{subsection.48.3.1}%
+\contentsline {subsection}{\numberline {48.3.2}Kurulum}{1063}{subsection.48.3.2}%
+\contentsline {subsection}{\numberline {48.3.3}Kivy Programlamaya Giriş}{1063}{subsection.48.3.3}%
+\contentsline {subsubsection}{Kv Dili}{1065}{subsubsection*.182}%
+\contentsline {subsubsection}{Uygulama Özellikleri}{1066}{subsubsection*.183}%
+\contentsline {subsection}{\numberline {48.3.4}Pencere düzenleri}{1067}{subsection.48.3.4}%
+\contentsline {subsubsection}{BoxLayout}{1067}{subsubsection*.184}%
+\contentsline {subsubsection}{FloatLayout}{1073}{subsubsection*.186}%
+\contentsline {subsubsection}{GridLayout}{1077}{subsubsection*.187}%
+\contentsline {subsubsection}{AnchorLayout}{1082}{subsubsection*.188}%
+\contentsline {subsubsection}{StackLayout}{1084}{subsubsection*.189}%
+\contentsline {paragraph}{padding}{1086}{paragraph*.190}%
+\contentsline {paragraph}{spacing}{1086}{paragraph*.191}%
+\contentsline {subsection}{\numberline {48.3.5}Temel Pencere Araçları}{1086}{subsection.48.3.5}%
+\contentsline {subsubsection}{Label}{1087}{subsubsection*.192}%
+\contentsline {paragraph}{font\_size}{1087}{paragraph*.193}%
+\contentsline {paragraph}{halign}{1088}{paragraph*.194}%
+\contentsline {paragraph}{color}{1088}{paragraph*.195}%
+\contentsline {paragraph}{bold \sphinxhyphen {} italic}{1089}{paragraph*.196}%
+\contentsline {paragraph}{line\_height}{1089}{paragraph*.197}%
+\contentsline {paragraph}{markup}{1090}{paragraph*.198}%
+\contentsline {subsubsection}{Button}{1092}{subsubsection*.199}%
+\contentsline {paragraph}{background\_color}{1093}{paragraph*.200}%
+\contentsline {paragraph}{background\_normal}{1093}{paragraph*.201}%
+\contentsline {paragraph}{background\_down}{1093}{paragraph*.202}%
+\contentsline {paragraph}{disabled}{1093}{paragraph*.203}%
+\contentsline {paragraph}{background\_disabled\_normal}{1094}{paragraph*.204}%
+\contentsline {paragraph}{background\_disabled\_down}{1094}{paragraph*.205}%
+\contentsline {paragraph}{border}{1094}{paragraph*.206}%
+\contentsline {subsubsection}{TextInput}{1094}{subsubsection*.207}%
+\contentsline {paragraph}{TextInput Girdilerini Kontrol Etme}{1097}{paragraph*.208}%
+\contentsline {paragraph}{selection\_text}{1098}{paragraph*.209}%
+\contentsline {paragraph}{focus}{1098}{paragraph*.210}%
+\contentsline {paragraph}{copy(veri\textless {}str\textgreater {})}{1099}{paragraph*.211}%
+\contentsline {paragraph}{cut()}{1099}{paragraph*.212}%
+\contentsline {paragraph}{paste()}{1099}{paragraph*.213}%
+\contentsline {paragraph}{readonly}{1099}{paragraph*.214}%
+\contentsline {paragraph}{tab\_width}{1099}{paragraph*.215}%
+\contentsline {paragraph}{text}{1099}{paragraph*.216}%
+\contentsline {subsubsection}{CheckBox}{1100}{subsubsection*.217}%
+\contentsline {paragraph}{color}{1103}{paragraph*.218}%
+\contentsline {paragraph}{active}{1103}{paragraph*.219}%
+\contentsline {subsubsection}{Image}{1104}{subsubsection*.220}%
+\contentsline {paragraph}{Resmin Boyutlarını Değiştirme}{1105}{paragraph*.221}%
+\contentsline {paragraph}{allow\_stretch}{1105}{paragraph*.222}%
+\contentsline {paragraph}{keep\_ratio}{1105}{paragraph*.223}%
+\contentsline {paragraph}{anim\_delay}{1105}{paragraph*.224}%
+\contentsline {paragraph}{anim\_loop}{1105}{paragraph*.225}%
+\contentsline {paragraph}{reload()}{1106}{paragraph*.226}%
+\contentsline {subsubsection}{ProgressBar}{1106}{subsubsection*.227}%
+\contentsline {subsection}{\numberline {48.3.6}Uygulama 1 \sphinxhyphen {} Resim Görüntüleyici}{1106}{subsection.48.3.6}%
+\contentsline {subsection}{\numberline {48.3.7}Olaylar}{1113}{subsection.48.3.7}%
+\contentsline {subsubsection}{Clock Olayları}{1114}{subsubsection*.228}%
+\contentsline {subsubsection}{Girdi Olayları}{1115}{subsubsection*.229}%
+\contentsline {subsection}{\numberline {48.3.8}Pencere Araçları \sphinxhyphen {} 2}{1116}{subsection.48.3.8}%
+\contentsline {subsubsection}{Popup}{1116}{subsubsection*.230}%
+\contentsline {paragraph}{seperator\_color}{1122}{paragraph*.231}%
+\contentsline {paragraph}{separator\_height}{1122}{paragraph*.232}%
+\contentsline {paragraph}{title\_align}{1122}{paragraph*.233}%
+\contentsline {paragraph}{title\_color}{1122}{paragraph*.234}%
+\contentsline {paragraph}{title\_font}{1122}{paragraph*.235}%
+\contentsline {paragraph}{title\_size}{1122}{paragraph*.236}%
+\contentsline {section}{\numberline {48.4}Pyperclip Modülü}{1122}{section.48.4}%
+\contentsline {subsection}{\numberline {48.4.1}Kurulum}{1122}{subsection.48.4.1}%
+\contentsline {subsection}{\numberline {48.4.2}Kullanım}{1123}{subsection.48.4.2}%
+\contentsline {subsubsection}{copy}{1123}{subsubsection*.237}%
+\contentsline {subsubsection}{paste}{1123}{subsubsection*.238}%
+\contentsline {subsubsection}{waitForPaste}{1123}{subsubsection*.239}%
+\contentsline {subsubsection}{waitForNewPaste}{1123}{subsubsection*.240}%
+\contentsline {subsection}{\numberline {48.4.3}NotImplementedError Hatası}{1124}{subsection.48.4.3}%
+\contentsline {subsubsection}{1. Yöntem}{1124}{subsubsection*.241}%
+\contentsline {subsubsection}{2. Yöntem}{1124}{subsubsection*.242}%
+\contentsline {subsubsection}{3. Yöntem}{1124}{subsubsection*.243}%
+\contentsline {subsubsection}{4. Yöntem}{1124}{subsubsection*.244}%
+\contentsline {section}{\numberline {48.5}Tornado paketi}{1124}{section.48.5}%
+\contentsline {subsection}{\numberline {48.5.1}Tornado}{1125}{subsection.48.5.1}%
+\contentsline {subsubsection}{Kurulum}{1125}{subsubsection*.245}%
+\contentsline {subsubsection}{Proje Oluşturma}{1125}{subsubsection*.246}%
+\contentsline {subsubsection}{Sayfa Sunma}{1126}{subsubsection*.247}%
+\contentsline {subsubsection}{Template(Şablon) Sistemi}{1127}{subsubsection*.248}%
+\contentsline {subsection}{\numberline {48.5.2}Tornado(devamı)}{1129}{subsection.48.5.2}%
+\contentsline {subsubsection}{Websocket}{1129}{subsubsection*.249}%
+\contentsline {chapter}{\numberline {49}Katkıda Bulunanlar}{1133}{chapter.49}%
+\contentsline {section}{\numberline {49.1}Hakan Demiral}{1135}{section.49.1}%
+\contentsline {section}{\numberline {49.2}Barbaros Akkurt}{1135}{section.49.2}%
+\contentsline {section}{\numberline {49.3}Şebnem Duyar}{1135}{section.49.3}%
+\contentsline {section}{\numberline {49.4}Onur Eker}{1135}{section.49.4}%
+\contentsline {section}{\numberline {49.5}Emre Erözgün}{1135}{section.49.5}%
+\contentsline {section}{\numberline {49.6}Tayfun Yaşar}{1135}{section.49.6}%
+\contentsline {section}{\numberline {49.7}Metin Hırçın}{1136}{section.49.7}%
+\contentsline {section}{\numberline {49.8}Ahmet Öztekin}{1136}{section.49.8}%
+\contentsline {section}{\numberline {49.9}Mesut İdiz}{1136}{section.49.9}%
+\contentsline {section}{\numberline {49.10}Levent Civa}{1136}{section.49.10}%
+\contentsline {section}{\numberline {49.11}Fırat Ekinci}{1136}{section.49.11}%
+\contentsline {section}{\numberline {49.12}Talha Kesler}{1137}{section.49.12}%
+\contentsline {section}{\numberline {49.13}Ömer Gök}{1137}{section.49.13}%
+\contentsline {section}{\numberline {49.14}Yunus Emre Bulut}{1137}{section.49.14}%
+\contentsline {section}{\numberline {49.15}Erhan Paşaoğlu}{1137}{section.49.15}%
+\contentsline {section}{\numberline {49.16}Cemre Efe Karakaş}{1137}{section.49.16}%
+\contentsline {section}{\numberline {49.17}Salim Yıldırım}{1137}{section.49.17}%
+\contentsline {section}{\numberline {49.18}Çağatay Genlik}{1138}{section.49.18}%
+\contentsline {section}{\numberline {49.19}Valeh Asadlı}{1138}{section.49.19}%
+\contentsline {section}{\numberline {49.20}Halit Turan Arıcan}{1138}{section.49.20}%
+\contentsline {section}{\numberline {49.21}Levent Güler}{1138}{section.49.21}%
+\contentsline {section}{\numberline {49.22}Yaşar Celep}{1138}{section.49.22}%
+\contentsline {section}{\numberline {49.23}Uğur Uyar}{1139}{section.49.23}%
+\contentsline {section}{\numberline {49.24}Serdar Çağlar}{1139}{section.49.24}%
+\contentsline {section}{\numberline {49.25}Ahmet Onur Yıldırım}{1139}{section.49.25}%
+\contentsline {section}{\numberline {49.26}Anıl İlginoğlu}{1139}{section.49.26}%
+\contentsline {section}{\numberline {49.27}Hüseyin Ulaş Yeltürk}{1140}{section.49.27}%
+\contentsline {section}{\numberline {49.28}Nuri Acar}{1140}{section.49.28}%
+\contentsline {section}{\numberline {49.29}Azat Fırat Çimen}{1140}{section.49.29}%
+\contentsline {section}{\numberline {49.30}Aykut Kardaş}{1140}{section.49.30}%
+\contentsline {section}{\numberline {49.31}Sezer Bozkır}{1140}{section.49.31}%
+\contentsline {section}{\numberline {49.32}Alican Uzunhan}{1141}{section.49.32}%
+\contentsline {section}{\numberline {49.33}Özgür Özer}{1141}{section.49.33}%
+\contentsline {section}{\numberline {49.34}Kerim Yıldız}{1141}{section.49.34}%
+\contentsline {section}{\numberline {49.35}Muhammed Yılmaz}{1141}{section.49.35}%
+\contentsline {section}{\numberline {49.36}Ahmet Erdoğan}{1142}{section.49.36}%
+\contentsline {section}{\numberline {49.37}Abdurrahman Dursun}{1142}{section.49.37}%
+\contentsline {section}{\numberline {49.38}Tahir Uzelli}{1142}{section.49.38}%
+\contentsline {section}{\numberline {49.39}Mehmet Akbay}{1142}{section.49.39}%
+\contentsline {section}{\numberline {49.40}Mehmet Çelikyontar}{1142}{section.49.40}%
+\contentsline {section}{\numberline {49.41}Savaş Zengin}{1142}{section.49.41}%
+\contentsline {section}{\numberline {49.42}Tuncay Güven}{1142}{section.49.42}%
+\contentsline {section}{\numberline {49.43}Cafer Uluç}{1143}{section.49.43}%
+\contentsline {section}{\numberline {49.44}Nikita Türkmen}{1143}{section.49.44}%
+\contentsline {section}{\numberline {49.45}Axolotl Axolotl}{1143}{section.49.45}%
+\contentsline {section}{\numberline {49.46}Burak Kadir Er}{1144}{section.49.46}%
+\contentsline {section}{\numberline {49.47}Muhammed Hattap Alkan}{1146}{section.49.47}%
+\contentsline {section}{\numberline {49.48}Husamsdu}{1146}{section.49.48}%
+\contentsline {section}{\numberline {49.49}Ahmet Burak Özyurt}{1146}{section.49.49}%
+\contentsline {section}{\numberline {49.50}Yunus Kale}{1146}{section.49.50}%
+\contentsline {section}{\numberline {49.51}Adem Kurtipek}{1146}{section.49.51}%
+\contentsline {section}{\numberline {49.52}Ali Sezişli}{1146}{section.49.52}%
